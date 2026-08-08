@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <head>
+        <title>CipherVault|Decrypt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+      <h1>CipherVault</h1>
+      <h2>Decrypt</h2>
+
+     <nav>
+         <a href= index.html>Home</a> 
+         <a href="about.html">About</a> 
+         <a href="encrypt.html">Encrypt</a> 
+         <a href="decrypt.html" class="active">Decrypt</a> 
+         <a href="vault.html">Vault</a> 
+         
+        </nav>
+
+       <script src="script.js"></script>
+
+       <hr>
+        <main class="decrypt-layout">
+        <div class="decrypt-box"> 
+
+         <p>Decrypt Message</p>
+
+         <label for="key">Encryption Key</label>
+         <input type="password" id="key" placeholder="Enter Encryption Key">
+
+         <label for="message">Message</label>
+         <textarea id="message" placeholder="Enter Message to Decrypt"></textarea>
+
+         <button class="button" id="decrypt-btn">Decrypt</button>
+        </div>
+
+        <div id="result">
+            <h3>Decrypted Result</h3>
+            <textarea id="decrypted-result" readonly></textarea>
+
+        </div>
+        </main>
+
+    </body>
+
+</html>

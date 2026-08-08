@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CipherVault|Encrypt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="encrypt-page">
+        <h1>CipherVault</h1>
+        <h2>Encrypt</h2>
+
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="encrypt.html" class="active">Encrypt</a> 
+            <a href="decrypt.html">Decrypt</a> 
+            <a href="vault.html">Vault</a> 
+        </nav>
+
+        <script src="script.js"></script>
+
+        <hr>
+
+    
+        <main class="encrypt-layout">
+        <div class="encrypt-box"> 
+
+         <p>Encrypt Message</p>
+
+         <label for="title">Title</label>
+         <input type="text" id="title" placeholder="Enter Title">
+
+         <label for="key">Encryption Key</label>
+         <input type="password" id="key" placeholder="Enter Encryption Key">
+
+         <label for="message">Message</label>
+         <textarea id="message" placeholder="Enter Message to Encrypt"></textarea>
+
+         <button class="button" id="encrypt-btn">Encrypt</button>
+        </div>
+
+        <div id="result">
+            <h3>Encrypted Result</h3>
+            <textarea id="encrypted-result" readonly></textarea>
+
+            <button class="button" id="copy-btn">Copy to Clipboard</button>
+            <button class="button" id="save-btn">Save to Vault</button>
+        </div>
+        </main>
+
+
+    
+
+
+    </body>
+</html>

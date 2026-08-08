@@ -1,0 +1,9 @@
+{
+  "name": "ciphervault-report-lambda",
+  "version": "1.0.0",
+  "main": "reportLambda.js",
+  "dependencies": {
+    "@azure/storage-blob": "^12.24.0",
+    "dotenv": "^16.4.5"
+  }
+}

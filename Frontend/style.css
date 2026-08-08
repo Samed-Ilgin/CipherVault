@@ -1,0 +1,202 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px black;
+    padding: 10px;
+    width: fit-content;
+    
+}   
+
+nav a {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.active {
+    pointer-events: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+hr{
+    height: 5px;
+    background-color: darkblue;
+    border: none;
+}
+
+.button{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.about-box {
+    width: 400px;
+    border: 2px solid white;
+    padding: 10px;
+    font-family: Arial Sans-serif;
+    
+}
+
+.about-box h3 {
+    margin-top: 10px;
+}
+
+.about-box p {
+    margin: 5px 0;
+}
+
+.about-box hr {
+    height: 1px;
+    background-color: black;
+}
+
+
+
+
+.encrypt-layout {
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.encrypt-box,
+#result {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.encrypt-box p,
+#result h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.encrypt-box input,
+.encrypt-box textarea,
+#result textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.encrypt-box textarea,
+#result textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+#result .button {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.decrypt-layout {
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.decrypt-box,
+#result {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:#f5f5f5;
+}
+
+.decrypt-box p,
+#result h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.decrypt-box input,
+.decrypt-box textarea,
+#result textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.decrypt-box textarea,
+#result textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+#result .button {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.vault-layout {
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.vault-box {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.vault-entry {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.vault-entry h3 {
+    margin-top: 0;
+}
+
+.vault-entry textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    min-height: 80px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
