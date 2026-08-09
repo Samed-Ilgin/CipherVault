@@ -1,7 +1,6 @@
 CipherVault Serverless Report
 
-This folder contains a simple AWS Lambda-style function.
-
+This folder contains an Azure Function (HTTP trigger) deployed to Azure.
 
 The function generates a vault report with:
 
@@ -9,4 +8,8 @@ The function generates a vault report with:
 - encryption algorithm
 - last saved message date
 
-To acces the report type "node Serverless/reportLambda.js" into the terminal
+It fetches the data from the live CipherVault backend API and requires no
+dependencies of its own.
+
+Live endpoint:
+https://ciphervault-report2.azurewebsites.net/api/ReportFunction
