@@ -1,6 +1,6 @@
 console.log("CipherVault loaded!");
 
-const apiUrl = "/api/vault";
+const apiUrl = "https://ciphervault-backend.thankfulcoast-1032c8c1.polandcentral.azurecontainerapps.io/api/vault";
 
 function getById(id) {
     return document.getElementById(id);
